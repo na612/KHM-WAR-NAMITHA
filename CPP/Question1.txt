@@ -1,7 +1,7 @@
 
-#include <iostream>
-#include <stirng.h>
-int main()
+#include <iostream.h>
+#include <string.h>
+void main()
 {
 	char str[100];
 	char ch; 
@@ -18,11 +18,13 @@ int main()
 }
 int getLIndex(char string,char  c)
 {
-	int size = len(string),i=0;
+	int size = len(string);
+	int i=0;
 	while(i<size)
 	{
 		
-		if(string[i]=c){
+		if(string[i]=c)
+		{
 		    return i;
 		   break;
 		}	
@@ -36,9 +38,10 @@ int getFindex(string, c)
 	int i=size; 
 	while( i>=0);
 {		
-		if(string[i]==c){
+		if(string[i]==c)
 		    return i;
- break;
+		else
+                    break;
 		}	
 	i--;
 }
